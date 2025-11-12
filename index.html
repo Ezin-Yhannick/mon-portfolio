@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZIN Yannick - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Yannick<span>.</span></div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" onclick="closeMenu()">Accueil</a></li>
+                <li><a href="#about" onclick="closeMenu()">À Propos</a></li>
+                <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">
+                <img src="images\Yan.jpg" alt="Photo de Yannick" class="profile-img-inner">
+            </div>
+            <h1>Je suis <span class="name">EZIN Yannick</span>,<br>Ingénieur Réseaux & Développeur</h1>
+            <p>Ingénieur Junior en Réseaux Informatiques basé à Abomey-Calavi, Bénin. Passionné par le développement d'applications innovantes, l'IoT et l'électronique embarquée.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Contactez-moi</a>
+                <a href="#projects" class="btn btn-outline">Mes Projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">À Propos de <span>Moi</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Ingénieur Junior en Réseaux Informatiques avec une solide expérience dans le développement d'applications web et mobile, ainsi qu'une expertise en électronique et systèmes IoT.
+                </p>
+                <p>
+                    Ma passion pour la technologie m'a conduit à travailler sur des projets diversifiés allant de la gestion d'entreprise aux systèmes de sécurité intelligents, en passant par des applications innovantes pour le marché local béninois.
+                </p>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Développement Web</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Développement Mobile</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">IoT & Électronique</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Réseaux Informatiques</span>
+                            <span class="skill-level">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>4+</h3>
+                    <p>Projets Complétés</p>
+                </div>
+                <div class="skill-card">
+                    <h3>8+</h3>
+                    <p>Technologies Maîtrisées</p>
+                </div>
+                <div class="skill-card">
+                    <h3>3+</h3>
+                    <p>Domaines d'Expertise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="section-title">Mes <span>Services</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images\webdev.jpeg" alt="Développement Web" class="service-icon">
+                <h3>Développement Web</h3>
+                <p>Création de sites web modernes et responsives avec HTML, CSS, JavaScript, React et Django. Solutions complètes pour votre présence en ligne avec des interfaces intuitives et performantes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Développement Mobile</h3>
+                <p>Développement d'applications mobiles natives et cross-platform avec React Native et Android Studio. Applications performantes pour iOS et Android adaptées à vos besoins.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Électronique</h3>
+                <p>Conception et développement de systèmes électroniques embarqués avec Arduino et Proteus. Prototypage, simulation et réalisation de circuits pour vos projets innovants.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔗</div>
+                <h3>IoT (Internet des Objets)</h3>
+                <p>Création de solutions IoT connectées et intelligentes. Capteurs, systèmes de monitoring et automatisation pour optimiser vos processus et collecter des données en temps réel.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎓</div>
+                <h3>Formations</h3>
+                <p>Formations personnalisées en développement web, mobile, électronique et IoT. Accompagnement dans l'apprentissage des technologies modernes et transfert de compétences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Mes <span>Projets</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🏢</div>
+                <div class="project-content">
+                    <h3>Plateforme de Gestion de Stages</h3>
+                    <p>Système web complet pour la gestion des stages en entreprise. Permet aux étudiants de postuler, aux entreprises de publier des offres et aux établissements de suivre les stages.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Php</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🗣️</div>
+                <div class="project-content">
+                    <h3>BenLangue - Traducteur Local</h3>
+                    <p>Application Android de traduction pour les langues locales béninoises (Fon, Yoruba, Bariba). Facilite la communication dans les marchés locaux avec reconnaissance vocale et traduction instantanée.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Android Studio</span>
+                        <span class="tech-tag">API REST</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🚗</div>
+                <div class="project-content">
+                    <h3>Système de Détection de Vitesse IoT</h3>
+                    <p>Dispositif IoT intelligent pour détecter et enregistrer les excès de vitesse. Utilise des capteurs ultrasoniques et communication sans fil pour monitorer le trafic en temps réel.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">Proteus</span>
+                        <span class="tech-tag">IoT</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">👁️</div>
+                <div class="project-content">
+                    <h3>Reconnaissance par Iris</h3>
+                    <p>Système de sécurité biométrique basé sur la reconnaissance par iris. Utilise l'apprentissage automatique pour authentifier les utilisateurs avec précision. (En cours de développement)</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">ImageJ</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                    <a href="#" class="project-link">Voir le projet →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Me <span>Contacter</span></h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Discutons ensemble</h3>
+                <p>Je suis actuellement disponible pour de nouveaux projets et collaborations. N'hésitez pas à me contacter pour discuter de vos idées ou pour toute question.</p>
+                
+                <a href="mailto:kpatagnonezin@gmail.com" class="contact-item" target="_blank">
+                    <div class="contact-icon">📧</div>
+                    <span>kpatagnonezin@gmail.com</span>
+                </a>
+    
+                <a href="https://github.com/Ezin-Yhannick" class="contact-item" target="_blank">
+                    <div class="contact-icon">🐙</div>
+                    <span>https://github.com/Ezin-Yhannick</span>
+                </a>
+                
+                <a href="https://wa.me/2290199322625" class="contact-item" target="_blank">
+                    <div class="contact-icon">💬</div>
+                    <span>WhatsApp: +229 0199322625</span>
+                </a>
+                
+                <a href="https://web.facebook.com/yannick.ezin.2025" class="contact-item" target="_blank">
+                    <div class="contact-icon">📘</div>
+                    <span>https://web.facebook.com/yannick.ezin.2025</span>
+                </a>
+            </div>
+            
+            <div class="contact-form">
+                <div class="form-group">
+                    <label>Votre Nom</label>
+                    <input type="text" id="name" placeholder="Ex: Jean Dupont">
+                </div>
+                <div class="form-group">
+                    <label>Votre Email</label>
+                    <input type="email" id="email" placeholder="exemple@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Votre Message</label>
+                    <textarea id="message" placeholder="Décrivez votre projet ou votre demande..."></textarea>
+                </div>
+                <button class="btn btn-primary" onclick="sendMessage()">Envoyer le Message</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        </footer>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p style="color: var(--light-gray);">© 2025 EZIN Yannick Kpatagnon. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#home">Accueil</a>
+                <a href="#about">À Propos</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Active navigation link
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.remove('active');
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        function sendMessage() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (!name || !email || !message) {
+                alert('Veuillez remplir tous les champs');
+                return;
+            }
+
+            // 1. Préparer le sujet et le corps du mail
+             subject = `Nouveau message de Portfolio | De: ${name}`;
+             const body = `Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+
+            // 2. Créer le lien mailto: (utilise encodeURIComponent pour gérer les espaces et caractères spéciaux)
+            const mailtoLink = `mailto:${myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+             // 3. Ouvrir le client de messagerie de l'utilisateur
+             window.location.href = mailtoLink;
+
+            // Simuler l'envoi
+            alert('Message envoyé avec succès! Je vous répondrai dans les plus brefs délais.');
+            
+            // Reset form
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        }
+
+        // Skill bars animation
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progressBars = entry.target.querySelectorAll('.skill-progress');
+                    progressBars.forEach(bar => {
+                        const width = bar.style.width;
+                        bar.style.width = '0';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 100);
+                    });
+                }
+            });
+        }, observerOptions);
+
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            observer.observe(aboutSection);
+        }
+
+        // Add animation to cards on scroll
+        const cardObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.service-card, .project-card, .skill-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            cardObserver.observe(card);
+        });
+    </script>
+</body>
+</html>
